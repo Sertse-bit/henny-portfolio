@@ -24,7 +24,7 @@ nav ul li a{ color:white; text-decoration:none; font-weight:bold; }
 .theme-toggle {
   position: fixed;
   top: 20px;
-  right: 20px;
+  left: 20px;
   background: #0077ff;
   color: white;
   border: none;
