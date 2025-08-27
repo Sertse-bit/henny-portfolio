@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Henny Fitness Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header / Hero -->
+  <header id="hero">
+    <nav>
+      <h1>Henny Fitness</h1>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#video">Video</a></li>
+        <li><a href="#stats">Stats</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#social">Social</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content scroll-animate">
+      <h2>Transforming Lives Through Fitness</h2>
+      <a href="#contact" class="btn scroll-animate">Join Now</a>
+    </div>
+    <!-- Dark/Light Mode Toggle -->
+<button id="theme-toggle" class="theme-toggle">🌙</button>
+
+  </header>
+
+  <!-- About Section -->
+<p>helping you achive more</p>
+
+  <!-- Certificates Section -->
+<section id="certificates" class="certificates-section">
+  <h2>Certificates</h2>
+  <div class="certificates">
+    <div class="certificate-item">
+      <img src="images/cer-1.jpg" alt="Henny Certificate 1">
+    </div>
+    <div class="certificate-item">
+      <img src="images/cer-2.jpg" alt="Henny Certificate 2">
+    </div>
+    <div class="certificate-item">
+      <img src="images/cer-3.jpg" alt="Henny Certificate 3">
+    </div>
+    <div class="certificate-item">
+      <img src="images/cer-4.jpg" alt="Henny Certificate 4">
+    </div>
+    <div class="certificate-item">
+      <img src="images/photo_2025-08-27_09-50-55.jpg" alt="Henny Certificate 5">
+    </div>
+    <div class="certificate-item">
+      <img src="images/photo_2025-08-27_09-50-58.jpg" alt="Henny Certificate 6">
+    </div>
+
+  </div>
+</section>
+
+  <!-- Portfolio / Transformation -->
+  <section id="portfolio" class="fade-in scroll-animate">
+    <h2>Client Transformations</h2>
+    <div class="portfolio-grid">
+      <img src="images/transformation-1.jpg" alt="Client Transformation" class="scroll-animate">
+      <img src="images/transformation-2.jpg" alt="Client Transformation" class="scroll-animate">
+        <img src="images/transformation-3.jpg" alt="Client Transformation" class="scroll-animate">
+        <img src="images/transformation-4.jpg" alt="Client Transformation" class="scroll-animate">
+        <img src="images/transformation-5.jpg" alt="Client Transformation" class="scroll-animate">
+        <img src="images/transformation-6.jpg" alt="Client Transformation" class="scroll-animate">
+        <img src="images/transformation -7.jpg" alt="Client Transformation" class="scroll-animate">
+        <img src="images/transformation 8.jpg" alt="Client Transformation" class="scroll-animate">
+     
+
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="fade-in scroll-animate">
+    <h2>Training Programs</h2>
+    <div class="services-grid">
+      <div class="service scroll-animate">
+        <h3>Personal Training</h3>
+        <p>Customized fitness plans to meet your goals.</p>
+      </div>
+      <div class="service scroll-animate">
+        <h3>Group Training</h3>
+        <p>Motivating group sessions for all fitness levels.</p>
+      </div>
+      <div class="service scroll-animate">
+        <h3>Nutrition Coaching</h3>
+        <p>Guidance on diet and healthy eating habits.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video Section -->
+  <section id="video" class="fade-in scroll-animate">
+    <h2>Watch Coach Henny in Action</h2>
+    <div class="video-container scroll-animate">
+      <iframe src="https://www.youtube.com/embed/WO4rzfKiDyI" title="Coach Henny Fitness Video" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <!-- Stats / Achievements -->
+  <section id="stats" class="fade-in scroll-animate">
+    <h2>Achievements</h2>
+    <div class="stats-grid">
+      <div class="stat scroll-animate">
+        <h3 class="counter" data-target="100">0</h3>
+        <p>Clients Transformed</p>
+      </div>
+      <div class="stat scroll-animate">
+        <h3 class="counter" data-target="50">0</h3>
+        <p>Training Programs</p>
+      </div>
+      <div class="stat scroll-animate">
+        <h3 class="counter" data-target="10">0</h3>
+        <p>Years of Experience</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="fade-in scroll-animate">
+    <h2>Client Testimonials</h2>
+    <div class="testimonial-container scroll-animate">
+      <div class="testimonial active">
+        <p>"Henny completely transformed my life!"</p>
+        <h4>- Client A</h4>
+      </div>
+      <div class="testimonial">
+        <p>"The training programs are amazing and easy to follow."</p>
+        <h4>- Client B</h4>
+      </div>
+      <div class="testimonial">
+        <p>"I love Henny's energy and support!"</p>
+        <h4>- Client C</h4>
+      </div>
+    </div>
+    <button id="prev">❮</button>
+    <button id="next">❯</button>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="fade-in scroll-animate">
+    <h2>Contact Henny</h2>
+    <form id="contactForm" class="scroll-animate">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Social Media Section -->
+  <section id="social" class="fade-in scroll-animate">
+    <h2>Follow Coach Henny</h2>
+    <div class="social-icons scroll-animate">
+      <a href="https://www.instagram.com/hennyyfitness" target="_blank">
+        <img src="images/instagram.png" alt="Instagram">
+      </a>
+      <a href="https://web.facebook.com/share/p/1JzHFjaqhn/?mibextid=wwXIfr" target="_blank">
+        <img src="images/facebook.png" alt="Facebook">
+      </a>
+    </div>
+  </section>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop">↑</button>
+
+  <!-- Footer -->
+  <footer 
+    <p>&copy; 2025 Henny Fitness. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
